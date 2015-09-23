@@ -29,12 +29,12 @@
 								<option id="gnu.c.compiler.option.include.paths.706763323" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/inc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/api&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/hal&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/hal/TARGET_STM/TARGET_STM32F7/TARGET_DISCO_F746NG&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/hal/TARGET_STM/TARGET_STM32F7&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis/TARGET_STM/TARGET_STM32F7/TARGET_DISCO_F746NG&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis/TARGET_STM/TARGET_STM32F7&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/hal&quot;"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1221938369" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F746G_DISCO"/>
@@ -81,7 +81,6 @@
 								<option id="gnu.both.asm.option.include.paths.2083193491" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/inc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/api&quot;"/>
-									<listOptionValue builtIn="false" value="/ecte333/src/mbed-src/hal"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/hal/TARGET_STM/TARGET_STM32F7/TARGET_DISCO_F746NG&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/hal/TARGET_STM/TARGET_STM32F7&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis/TARGET_STM/TARGET_STM32F7/TARGET_DISCO_F746NG&quot;"/>
@@ -136,6 +135,8 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis/TARGET_STM/TARGET_STM32F7/TARGET_DISCO_F746NG&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis/TARGET_STM/TARGET_STM32F7&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/libraries/rtos/rtos&quot;"/>
+									<listOptionValue builtIn="false" value="/ecte333/src/libraries/rtos/rtx/TARGET_CORTEX_M/TARGET_M4/TOOLCHAIN_GCC"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1178195662" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F746G_DISCO"/>
@@ -158,6 +159,8 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis/TARGET_STM/TARGET_STM32F7/TARGET_DISCO_F746NG&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis/TARGET_STM/TARGET_STM32F7&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/libraries/rtos/rtos&quot;"/>
+									<listOptionValue builtIn="false" value="/ecte333/src/libraries/rtos/rtx/TARGET_CORTEX_M/TARGET_M4/TOOLCHAIN_GCC"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.1559106270" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F746G_DISCO"/>
@@ -186,6 +189,8 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis/TARGET_STM/TARGET_STM32F7/TARGET_DISCO_F746NG&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis/TARGET_STM/TARGET_STM32F7&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/mbed-src/targets/cmsis&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/libraries/rtos/rtos&quot;"/>
+									<listOptionValue builtIn="false" value="/ecte333/src/libraries/rtos/rtx/TARGET_CORTEX_M/TARGET_M4/TOOLCHAIN_GCC"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1405736462" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.2033385164" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
@@ -221,4 +226,5 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
 </cproject>
